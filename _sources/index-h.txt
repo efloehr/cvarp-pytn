@@ -1,0 +1,51 @@
+
+.. Computer Vision and Augmented Reality in Python slides file, created by
+   hieroglyph-quickstart on Wed Feb 12 10:17:07 2014.
+
+
+Computer Vision and Augmented Reality in Python
+===============================================
+
+Eric Floehr / eric@intellovations.com / @ForecastWatch
+
+.. figure:: /_static/boy_and_pinwheel.png
+   :class: fill
+
+What is Computer Vision?
+------------------------
+
+.. slide::
+
+    .. figure:: /_static/Google-Self-Driving-car.jpg
+
+
+.. slide::
+
+    .. figure:: /_static/stealthwear.JPG
+
+
+.. slide::
+
+    .. figure:: /_static/Video-Analytics1.jpg
+
+
+.. slide::
+
+    .. figure:: /_static/xbox_one_kinect.png
+
+
+.. slide::
+
+    Images used from the following websites:
+
+
+    - http://www.motortrend.com/features/auto_news/2012/1209_notes_from_the_driverless_car_summit/photo_03.html
+    - http://www.washingtonpost.com/lifestyle/style/designers-trying-to-help-people-fight-government-surveillance/2013/08/15/824faf84-0533-11e3-88d6-d5795fab4637_gallery.html
+    - http://www.visionsystems.co.nz/Systems-Services/Security-Systems/smart-video-surveillance-intelligent-security-camera-analysis-__I.2021
+    - http://www.kinectingforwindows.com/2013/05/25/review-xbox-one-kinect-2-0-revealed/
+
+.. toctree::
+   :maxdepth: 2
+
+
+
