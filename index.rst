@@ -815,6 +815,5 @@ http://www.intellovations.com
 
 Code: http://bit.ly/cvarp-pytn-code
 
-Presentation: http://bit.ly/cvarp-pytn-talk
-
+Presentation: in _build/slides directory
 
