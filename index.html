@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Computer Vision and Augmented Reality in Python &mdash; Computer Vision and Augmented Reality in Python 2014.02.12 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="_static/single.css" type="text/css" />
+    
+
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2014.02.12',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/common.js"></script>
+    <script type="text/javascript" src="_static/slides.js"></script>
+    <script type="text/javascript" src="_static/sync.js"></script>
+    <script type="text/javascript" src="_static/controller.js"></script>
+    <script type="text/javascript" src="_static/init.js"></script>
+    
+    <link rel="top" title="Computer Vision and Augmented Reality in Python 2014.02.12 documentation" href="#" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  <article class="slide level-1" id="computer-vision-and-augmented-reality-in-python">
+<h1>Computer Vision and Augmented Reality in Python</h1>
+<div class="figure">
+<img alt="_images/boy_and_pinwheel.png" class="fill" src="_images/boy_and_pinwheel.png" />
+</div>
+<p>Eric Floehr / <a class="reference external" href="mailto:eric&#37;&#52;&#48;intellovations&#46;com">eric<span>&#64;</span>intellovations<span>&#46;</span>com</a> / &#64;ForecastWatch</p>
+
+</article>
+<article class="slide level-2" id="what-is-computer-vision">
+<h2>What is Computer Vision?</h2>
+
+</article>
+<article class="slide level-3" id="id1">
+<h3>What is Computer Vision?</h3>
+<dl class="docutils">
+<dt>Computer vision is extracting information from visual data to:</dt>
+<dd><ul class="first last simple">
+<li>Impart knowledge</li>
+<li>Inform action</li>
+</ul>
+</dd>
+</dl>
+
+</article>
+<article class="slide level-3" id="upc-symbol-scanning">
+<h3>UPC Symbol Scanning</h3>
+<div class="figure">
+<img alt="_images/upc.jpg" src="_images/upc.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-1">http://bit.ly/cvarp-pytn-1</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="google-self-driving-car">
+<h3>Google Self Driving Car</h3>
+<div class="figure">
+<img alt="_images/Google-Self-Driving-car.jpg" src="_images/Google-Self-Driving-car.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-2">http://bit.ly/cvarp-pytn-2</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="facial-recognition">
+<h3>Facial Recognition</h3>
+<div class="figure">
+<img alt="_images/facebook_facial_recognition.jpg" src="_images/facebook_facial_recognition.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-3">http://bit.ly/cvarp-pytn-3</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="getting-around-facial-recognition">
+<h3>Getting Around Facial Recognition</h3>
+<div class="figure">
+<img alt="_images/stealthwear.JPG" src="_images/stealthwear.JPG" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-4">http://bit.ly/cvarp-pytn-4</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="video-surveillance-and-analytics">
+<h3>Video Surveillance and Analytics</h3>
+<div class="figure">
+<img alt="_images/Video-Analytics1.jpg" src="_images/Video-Analytics1.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-5">http://bit.ly/cvarp-pytn-5</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="microsoft-kinect">
+<h3>Microsoft Kinect</h3>
+<div class="figure">
+<img alt="_images/xbox_one_kinect.png" src="_images/xbox_one_kinect.png" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-6">http://bit.ly/cvarp-pytn-6</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="never-ending-image-learner">
+<h3>Never Ending Image Learner</h3>
+<div class="figure">
+<img alt="_images/never_ending_image_learner.png" src="_images/never_ending_image_learner.png" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-7">http://bit.ly/cvarp-pytn-7</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="google-object-recognition">
+<h3>Google Object Recognition</h3>
+<div class="figure">
+<img alt="_images/google_object_recognition.png" src="_images/google_object_recognition.png" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-8">http://bit.ly/cvarp-pytn-8</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="google-auto-awesome-before">
+<h3>Google Auto Awesome (Before)</h3>
+<div class="figure">
+<img alt="_images/google_auto_awesome_before.png" src="_images/google_auto_awesome_before.png" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-9">http://bit.ly/cvarp-pytn-9</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="google-auto-awesome-after">
+<h3>Google Auto Awesome (After)</h3>
+<div class="figure">
+<img alt="_images/google_auto_awesome_after.png" src="_images/google_auto_awesome_after.png" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-9">http://bit.ly/cvarp-pytn-9</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="sports-statistics-tech">
+<h3>Sports Statistics (Tech)</h3>
+<div class="figure">
+<img alt="_images/SportVUHoopsSetup.jpg" src="_images/SportVUHoopsSetup.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-10">http://bit.ly/cvarp-pytn-10</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="sports-statistics-results">
+<h3>Sports Statistics (Results)</h3>
+<div class="figure">
+<img alt="_images/epv-chart-features.png" src="_images/epv-chart-features.png" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-11">http://bit.ly/cvarp-pytn-11</a></li>
+</ul>
+
+</article>
+<article class="slide level-2" id="what-is-augmented-reality">
+<h2>What is Augmented Reality?</h2>
+
+</article>
+<article class="slide level-3" id="id2">
+<h3>What is Augmented Reality?</h3>
+<dl class="docutils">
+<dt>Augmented Reality is altering the visual image to:</dt>
+<dd><ul class="first last simple">
+<li>Impart knowledge</li>
+<li>Inform action</li>
+</ul>
+</dd>
+</dl>
+<p>Augmented reality doesn't have to incorporate computer vision.</p>
+<dl class="docutils">
+<dt>Inputs informing augmented reality display can be non-visual. For example:</dt>
+<dd><ul class="first last simple">
+<li>GPS</li>
+<li>Sensor data</li>
+<li>Backend databases</li>
+</ul>
+</dd>
+</dl>
+
+</article>
+<article class="slide level-3" id="augmented-reality-without-computer-vision">
+<h3>Augmented Reality Without Computer Vision</h3>
+<div class="figure">
+<img alt="_images/Nokia-Lumia-920-City-Lens-Demo1.jpg" src="_images/Nokia-Lumia-920-City-Lens-Demo1.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-12">http://bit.ly/cvarp-pytn-12</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="heads-up-displays">
+<h3>Heads-Up Displays</h3>
+<div class="figure">
+<img alt="_images/azelview.png" src="_images/azelview.png" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-13">http://bit.ly/cvarp-pytn-13</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="football-on-tv">
+<h3>Football on TV</h3>
+<div class="figure">
+<img alt="_images/footballargame1.jpg" src="_images/footballargame1.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-14">http://bit.ly/cvarp-pytn-14</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="layar-app">
+<h3>Layar App</h3>
+<div class="figure">
+<img alt="_images/elle-compare2.jpg" src="_images/elle-compare2.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-15">http://bit.ly/cvarp-pytn-15</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="visualization-of-furniture-ikea">
+<h3>Visualization of Furniture (IKEA)</h3>
+<div class="figure">
+<img alt="_images/dezeen_ikea-launch_augmented-reality_2014_ss2_pan.jpg" src="_images/dezeen_ikea-launch_augmented-reality_2014_ss2_pan.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-16">http://bit.ly/cvarp-pytn-16</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="education">
+<h3>Education</h3>
+<div class="figure">
+<img alt="_images/arscience.jpg" src="_images/arscience.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-17">http://bit.ly/cvarp-pytn-17</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="games-ar-invaders">
+<h3>Games (AR Invaders)</h3>
+<div class="figure">
+<img alt="_images/AR-Invaders.jpg" src="_images/AR-Invaders.jpg" />
+</div>
+<ul class="simple">
+<li><a class="reference external" href="http://bit.ly/cvarp-pytn-18">http://bit.ly/cvarp-pytn-18</a></li>
+</ul>
+
+</article>
+<article class="slide level-3" id="what-does-it-mean-to-extract-information-from-an-image">
+<h3>What does it mean to extract information from an image?</h3>
+<ul>
+<li><dl class="first docutils">
+<dt>Color and intensity</dt>
+<dd><ul class="first last simple">
+<li><em>Is the sky red? Must be sunset.</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Segmentation</dt>
+<dd><ul class="first last simple">
+<li><em>These parts of an image are related to each other</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Feature detection</dt>
+<dd><ul class="first last simple">
+<li><em>This is an edge</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Object Recognition</dt>
+<dd><ul class="first last simple">
+<li><em>This is a hammer</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Difference</dt>
+<dd><ul class="first last simple">
+<li><em>This object has moved from the previous image</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+
+</article>
+<article class="slide level-3" id="why-now">
+<h3>Why now?</h3>
+<p>Computer Vision and Augmented Reality applications have blossomed
+with the blossoming of smart phones.</p>
+<p>But just as important is the increase in computational power.</p>
+<p>You have a <em>supercomputer</em> on your lap,</p>
+<p>and a <em>powerful desktop computer</em> in your pocket.</p>
+
+</article>
+<article class="slide level-3" id="why-am-i-interested-in-computer-vision-and-augmented-reality">
+<h3>Why am I interested in computer vision and augmented reality?</h3>
+<p>I have been taking pictures of the sky for many years.</p>
+<p>It is automated.</p>
+<p>It takes lots of pictures.</p>
+<p>I don't have time to look at them all!</p>
+
+</article>
+<article class="slide level-3" id="version-1-of-timelapse-camera">
+<h3>Version 1 of Timelapse Camera</h3>
+<p>About 1,000,000 images taken once per minute over two years.</p>
+<p>About 12GB of 640x480 jpg files.</p>
+<div class="figure">
+<img alt="_images/timelapse-v-1.jpg" class="fill" src="_images/timelapse-v-1.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="version-2-of-timelapse-camera">
+<h3>Version 2 of Timelapse Camera</h3>
+<p>Taking a picture every 10 seconds, since July of this year.</p>
+<p>Currently over <strong>2,000,000</strong> images, and over <strong>1.3 TB</strong> of jpg files.</p>
+<div class="figure">
+<img alt="_images/timelapse-v-2.jpg" class="fill" src="_images/timelapse-v-2.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="that-is-a-lot-of-images-to-look-at">
+<h3>That is <strong>A LOT</strong> of images to look at!</h3>
+<dl class="docutils">
+<dt>Why would I want to look at them?</dt>
+<dd><ul class="first last simple">
+<li>For pretty sunsets</li>
+<li>For birds</li>
+<li>For cloud movement</li>
+<li>For UFOs</li>
+</ul>
+</dd>
+</dl>
+
+</article>
+<article class="slide level-3" id="sunset">
+<h3>Sunset</h3>
+<div class="figure">
+<img alt="_images/timelapse-sunset.jpg" class="fill" src="_images/timelapse-sunset.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="birds">
+<h3>Birds</h3>
+<div class="figure">
+<img alt="_images/timelapse-birds.jpg" class="fill" src="_images/timelapse-birds.jpg" />
+</div>
+
+</article>
+<article class="slide level-2" id="what-are-your-ideas">
+<h2>What are your ideas?</h2>
+
+</article>
+<article class="slide level-3" id="how-do-we-get-started-in-python">
+<h3>How do we get started in Python?</h3>
+<ul class="simple">
+<li>Python Imaging Library (pillow)</li>
+<li>OpenCV (pyopencv)</li>
+<li>SimpleCV (simplecv)</li>
+<li>Books</li>
+</ul>
+<p>I recommend starting your journey with <strong>SimpleCV</strong>. PyOpenCV is a wrapper
+around OpenCV, SimpleCV is a framework.</p>
+
+</article>
+<article class="slide level-3" id="simplecv">
+<h3>SimpleCV</h3>
+<ul class="simple">
+<li>Offers an interactive console based on IPython</li>
+<li>Proves a tutorial</li>
+<li>Provides lots of examples</li>
+<li>Abstracts a lot of hard concepts</li>
+<li>Pulls together complementary technologies (like PIL)</li>
+</ul>
+
+</article>
+<article class="slide level-3" id="installing-simplecv">
+<h3>Installing SimpleCV</h3>
+<dl class="docutils">
+<dt>SimpleCV requires:</dt>
+<dd><ul class="first last simple">
+<li>opencv</li>
+<li>numpy</li>
+<li>scipy</li>
+<li>PIL</li>
+<li>ipython</li>
+<li>svgwrite</li>
+</ul>
+</dd>
+</dl>
+<p>SimpleCV is in active development (and has a few rough edges).</p>
+<p>I think it's best to use the current code from GitHub.</p>
+
+</article>
+<article class="slide level-3" id="installing-simplecv-requirements">
+<h3>Installing SimpleCV Requirements</h3>
+<p>Easiest: Install your system's package for opencv, numpy, scipy, and PIL, at least.</p>
+<p>Then, make a virtualenv for your SimpleCV work.</p>
+<div class="highlight-bash"><div class="highlight"><pre>[dev]$ mkvirtualenv --system-site-packages vision
+New python executable in vision/bin/python
+Installing Setuptools.................done.
+Installing Pip........................done.
+(vision)[dev]$
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="getting-simplecv">
+<h3>Getting SimpleCV</h3>
+<p>Next, you'll want to get the current codebase from github.</p>
+<div class="highlight-bash"><div class="highlight"><pre>(vision)[dev]$ git clone git://github.com/sightmachine/SimpleCV.git
+Cloning into &#39;SimpleCV&#39;...
+remote: Reusing existing pack: 13952, done.
+remote: Total 13952 (delta 0), reused 0 (delta 0)
+Receiving objects: 100% (13952/13952), 131.98 MiB | 2.67 MiB/s, done.
+Resolving deltas: 100% (9123/9123), done.
+(vision)[efloehr@agali dev]$ cd SimpleCV/
+(vision)[SimpleCV]$
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="install-any-remaining-requirements">
+<h3>Install Any Remaining Requirements</h3>
+<p>If there are any requirements still needed, and even if not it doesn't hurt, run <tt class="docutils literal"><span class="pre">pip</span> <span class="pre">install</span></tt>.</p>
+<div class="highlight-bash"><div class="highlight"><pre>(vision)[]$ pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade):
+  numpy in /usr/lib64/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade):
+  scipy in /usr/lib64/python2.7/site-packages (from -r requirements.txt (line 2))
+Downloading/unpacking PIL (from -r requirements.txt (line 3))
+  You are installing a potentially insecure and unverifiable file. Future versions of pip will default to disallowing insecure files.
+  Downloading PIL-1.1.7.tar.gz (506kB): 506kB downloaded
+  Running setup.py egg_info for package PIL
+...
+Successfully installed PIL ipython
+Cleaning up...
+(vision)[SimpleCV]$
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="install-simplecv-itself">
+<h3>Install SimpleCV Itself</h3>
+<p>The final step is to install SimpleCV.</p>
+<div class="highlight-bash"><div class="highlight"><pre>(vision)[SimpleCV]$ python setup.py install
+running install
+running bdist_egg
+running egg_info
+creating SimpleCV.egg-info
+...
+Installed /home/efloehr/.virtualenvs/vision/lib/python2.7/site-packages/SimpleCV-1.3-py2.7.egg
+Processing dependencies for SimpleCV==1.3
+Finished processing dependencies for SimpleCV==1.3
+(vision)[SimpleCV]$
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="running-simplecv">
+<h3>Running SimpleCV</h3>
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">(</span>vision<span class="o">)[</span>dev<span class="o">]</span><span class="nv">$ </span>simplecv
++-----------------------------------------------------------+
+SimpleCV 1.3.0 <span class="o">[</span>interactive shell<span class="o">]</span> - http://simplecv.org
++-----------------------------------------------------------+
+
+Commands:
+        <span class="s2">&quot;exit()&quot;</span> or press <span class="s2">&quot;Ctrl+ D&quot;</span> to <span class="nb">exit </span>the shell
+        <span class="s2">&quot;clear()&quot;</span> to clear the shell screen
+        <span class="s2">&quot;tutorial()&quot;</span> to begin the SimpleCV interactive tutorial
+        <span class="s2">&quot;example()&quot;</span> gives a list of examples you can run
+        <span class="s2">&quot;forums()&quot;</span> will launch a web browser <span class="k">for </span>the <span class="nb">help </span>forums
+        <span class="s2">&quot;walkthrough()&quot;</span> will launch a web browser with a walkthrough
+
+Documentation:
+        <span class="nb">help</span><span class="o">(</span>Image<span class="o">)</span>, ?Image, Image?, or Image<span class="o">()</span>? all <span class="k">do </span>the same
+        <span class="s2">&quot;docs()&quot;</span> will launch webbrowser showing documentation
+
+SimpleCV:1&gt;
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="running-an-example">
+<h3>Running an Example</h3>
+<p><strong>NOTE:</strong> The examples are loaded dynamically from the examples directory.
+So they <em>likely</em> won't be the same numbers for you.</p>
+<div class="highlight-bash"><div class="highlight"><pre>SimpleCV:3&gt; example 30
+running example: ...SimpleCV/examples/detection/CannyCam.py
+
+This example just takes an image, finds the edges, and draws them
+the threshold is used <span class="k">for </span>the edge detection, <span class="k">if </span>you adjust the
+max_threshold and threshhold_step values and run the program you will
+see it change over <span class="nb">time</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="which-brings-me-to-computer-vision-as-art">
+<h3>Which Brings me to...Computer Vision as art!</h3>
+<div class="figure">
+<img alt="_images/example_30.png" src="_images/example_30.png" />
+</div>
+
+</article>
+<article class="slide level-3" id="a-more-practical-example">
+<h3>A More Practical Example</h3>
+<div class="highlight-bash"><div class="highlight"><pre>SimpleCV:12&gt; example 41
+
+This example finds a quarter in the picture and <span class="k">then </span>uses that measurement
+to determine the rest of the coins in the picture.  Since a quarter is always
+a certain size we can use it as a reference because it is known.
+
+The sizes of coins are as follows:
+penny - 19.05 mm
+nickel - 21.21 mm
+dime - 17.9 mm
+quarter - 24.26 mm
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="measures-coins-and-identifies-them">
+<h3>Measures Coins and Identifies Them</h3>
+<div class="figure">
+<img alt="_images/coins.jpg" src="_images/coins.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="looking-at-the-examples">
+<h3>Looking at the Examples:</h3>
+<p>The examples are in SimpleCV/examples in the repo and in the egg. This is
+a portion of example 30:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">SimpleCV</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">cam</span> <span class="o">=</span> <span class="n">Camera</span><span class="p">()</span> <span class="c">#initialize the camera</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="c"># get image (or frame) from camera</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="n">cam</span><span class="o">.</span><span class="n">getImage</span><span class="p">()</span>
+    <span class="c"># flip it so it looks mirrored</span>
+    <span class="n">flipped_image</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">flipHorizontal</span><span class="p">()</span>
+    <span class="c"># get the image edges</span>
+    <span class="n">edged_image</span> <span class="o">=</span> <span class="n">flipped_image</span><span class="o">.</span><span class="n">edges</span><span class="p">(</span><span class="n">threshold</span><span class="p">)</span>
+
+    <span class="n">edged_image</span><span class="o">.</span><span class="n">drawText</span><span class="p">(</span><span class="s">&quot;Current Edge Threshold:&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">threshold</span><span class="p">),</span>
+                         <span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">Color</span><span class="o">.</span><span class="n">GREEN</span><span class="p">)</span>
+    <span class="n">edged_image</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="computer-vision-augmented-reality-workflow">
+<h3>Computer Vision/Augmented Reality Workflow</h3>
+<img alt="blockdiag-9f5f75e9fb2dd8dc9f8461e0d410a4eca9017309.png" src="blockdiag-9f5f75e9fb2dd8dc9f8461e0d410a4eca9017309.png" />
+<ol class="arabic simple">
+<li>Get Image</li>
+<li>Process image</li>
+<li>Manipulate image (optional)</li>
+<li>Display or save image/info</li>
+</ol>
+
+</article>
+<article class="slide level-3" id="finding-faces-in-the-clouds">
+<h3>Finding Faces in the Clouds</h3>
+<div class="figure">
+<img alt="_images/face_montage.jpg" src="_images/face_montage.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="csi-enhance">
+<h3>CSI Enhance!</h3>
+<div class="figure">
+<img alt="_images/the_mustached_man_2.jpg" src="_images/the_mustached_man_2.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="pseudocode">
+<h3>Pseudocode</h3>
+<ol class="arabic simple">
+<li>Iterate through directory of timelapse pictures</li>
+<li>Throw away any pictures that are dark (nightime)</li>
+<li>Look for faces</li>
+<li>Crop the faces individually and save as a separate file</li>
+<li>Take original and outline faces for context and save</li>
+</ol>
+
+</article>
+<article class="slide level-3" id="get-image">
+<h3>Get Image</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">SimpleCV</span>
+
+<span class="k">for</span> <span class="n">imagenum</span><span class="p">,</span> <span class="n">image</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">images</span><span class="p">):</span>
+    <span class="c"># Don&#39;t do for sure dark</span>
+    <span class="n">img</span> <span class="o">=</span> <span class="n">SimpleCV</span><span class="o">.</span><span class="n">Image</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dirpath</span><span class="p">,</span> <span class="n">day</span><span class="p">,</span> <span class="n">hour</span><span class="p">,</span> <span class="n">image</span><span class="p">))</span>
+
+    <span class="c"># Check if dark</span>
+    <span class="n">r</span><span class="p">,</span> <span class="n">g</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">img</span><span class="p">[</span><span class="mi">32</span><span class="p">,</span><span class="mi">32</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">r</span><span class="o">&lt;</span><span class="mi">20</span> <span class="ow">and</span> <span class="n">g</span><span class="o">&lt;</span><span class="mi">20</span> <span class="ow">and</span> <span class="n">b</span><span class="o">&lt;</span><span class="mi">20</span><span class="p">:</span>
+        <span class="n">darkcount</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">continue</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="process-image">
+<h3>Process Image</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="c"># Find a face</span>
+<span class="n">scalesize</span> <span class="o">=</span> <span class="mf">1.0</span>
+<span class="n">padding</span> <span class="o">=</span> <span class="mf">1.5</span>
+<span class="n">scaledimg</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="n">scalesize</span><span class="p">)</span>
+
+<span class="n">scalar</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="n">scalesize</span>
+<span class="n">faces</span> <span class="o">=</span> <span class="n">scaledimg</span><span class="o">.</span><span class="n">findHaarFeatures</span><span class="p">(</span><span class="s">&quot;face.xml&quot;</span><span class="p">,</span>
+                                   <span class="n">min_neighbors</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span>
+                                   <span class="n">min_size</span><span class="o">=</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span><span class="mi">50</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">faces</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">facenum</span><span class="p">,</span> <span class="n">face</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">faces</span><span class="p">):</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="manipulate-image-and-save">
+<h3>Manipulate Image And Save</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">for</span> <span class="n">facenum</span><span class="p">,</span> <span class="n">face</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">faces</span><span class="p">):</span>
+    <span class="n">scaled_x</span> <span class="o">=</span> <span class="n">face</span><span class="o">.</span><span class="n">x</span> <span class="o">*</span> <span class="n">scalar</span>
+    <span class="n">scaled_y</span> <span class="o">=</span> <span class="n">face</span><span class="o">.</span><span class="n">y</span> <span class="o">*</span> <span class="n">scalar</span>
+    <span class="n">scaled_width</span> <span class="o">=</span> <span class="n">face</span><span class="o">.</span><span class="n">width</span><span class="p">()</span> <span class="o">*</span> <span class="n">scalar</span> <span class="o">*</span> <span class="n">padding</span>
+    <span class="n">scaled_height</span> <span class="o">=</span> <span class="n">face</span><span class="o">.</span><span class="n">height</span><span class="p">()</span> <span class="o">*</span> <span class="n">scalar</span> <span class="o">*</span> <span class="n">padding</span>
+
+    <span class="n">faceimg</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">crop</span><span class="p">(</span><span class="n">face</span><span class="p">)</span>
+
+    <span class="n">faceimg</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">resultpath</span><span class="p">,</span> <span class="s">&quot;{0}-{1}.jpg&quot;</span>\
+                 <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">image</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span> <span class="n">facenum</span><span class="p">)))</span>
+
+    <span class="n">img</span><span class="o">.</span><span class="n">drawRectangle</span><span class="p">(</span><span class="n">scaled_x</span> <span class="o">-</span> <span class="p">(</span><span class="n">scaled_width</span><span class="o">/</span><span class="mf">2.0</span><span class="p">),</span>
+                      <span class="n">scaled_y</span> <span class="o">-</span> <span class="p">(</span><span class="n">scaled_height</span><span class="o">/</span><span class="mf">2.0</span><span class="p">),</span>
+                      <span class="n">scaled_width</span><span class="p">,</span>
+                      <span class="n">scaled_height</span><span class="p">)</span>
+
+<span class="n">img</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">resultpath</span><span class="p">,</span> <span class="n">image</span><span class="p">))</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="the-simplecv-console">
+<h3>The SimpleCV Console</h3>
+<p>The SimpleCV console is a great tool for exploration. Specificly:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Tab completion will show available methods</li>
+<li>help() or object? or function()? will display help text</li>
+<li>docs command will bring up a web browser with full documentation</li>
+</ul>
+</div></blockquote>
+
+</article>
+<article class="slide level-3" id="sudoku">
+<h3>Sudoku</h3>
+<p>Our goal will be for our computer to get our computer to:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Identify a Sudoku puzzle in an image</li>
+<li>Identify individual squares in a Sudoku puzzle</li>
+<li>Recognize digits in the Sudoku puzzle</li>
+<li>Construct a representation of the Sudoku puzzle in the computer</li>
+<li>Solve the Sudoku puzzle</li>
+<li>Place the solved digits back into the image</li>
+<li>Display the image and save the solved puzzle</li>
+</ol>
+</div></blockquote>
+
+</article>
+<article class="slide level-3" id="kudos">
+<h3>Kudos</h3>
+<p>Kudos to Abid Rahman K at <a class="reference external" href="http://opencvpython.blogspot.com/">http://opencvpython.blogspot.com/</a> for a great
+series of posts on solving Sudoku with OpenCV.</p>
+<p>Also, there is an implementation of a solver in the <strong>Programming Computer Vision with Python</strong>
+book by Jan Erik Solem which also uses OpenCV.</p>
+<p>Kudos also to Peter Norvig for his Sudoku Solver at <a class="reference external" href="http://norvig.com/sudoku.html">http://norvig.com/sudoku.html</a>
+which I have used to actually solve the Sudoku puzzles.</p>
+
+</article>
+<article class="slide level-3" id="identify-a-sudoku-puzzle">
+<h3>Identify a Sudoku puzzle</h3>
+<p>We generally want to make things as easy on the computer as possible.</p>
+<p>There is generally a lot of extraneous information in an image.</p>
+<p>Color is one of them.</p>
+<dl class="docutils">
+<dt>So our steps will be:</dt>
+<dd><ul class="first last simple">
+<li>Remove color and make the image black and white (no grays even)</li>
+<li>Do this in a way that lines and numbers are clear</li>
+<li>Identify the largest rectangle in the image, because that will be the puzzle</li>
+</ul>
+</dd>
+</dl>
+
+</article>
+<article class="slide level-3" id="removing-color-and-smoothing">
+<h3>Removing Color and Smoothing</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">SimpleCV</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">import</span> <span class="nn">cv2</span>
+
+<span class="c"># Load the Image</span>
+<span class="n">raw_image</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="s">&#39;sudoku.jpg&#39;</span><span class="p">)</span>
+
+<span class="c"># Remove color</span>
+<span class="n">gray_image</span> <span class="o">=</span> <span class="n">raw_image</span><span class="o">.</span><span class="n">grayscale</span><span class="p">()</span>
+
+<span class="c"># Smooth to remove speckle</span>
+<span class="n">smooth_image</span> <span class="o">=</span> <span class="n">gray_image</span><span class="o">.</span><span class="n">gaussianBlur</span><span class="p">((</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="thesholding-by-going-to-opencv">
+<h3>Thesholding by Going To OpenCV</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="c"># Convert to Numpy Array For OpenCV use</span>
+<span class="n">cv_image</span> <span class="o">=</span> <span class="n">smooth_image</span><span class="o">.</span><span class="n">getGrayNumpyCv2</span><span class="p">()</span>
+
+<span class="c"># Adaptive threshold does much better than linear</span>
+<span class="n">raw_thresh_image</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">adaptiveThreshold</span><span class="p">(</span><span class="n">cv_image</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c"># Convert back to a SimpleCV image</span>
+<span class="n">thresh_image</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="n">raw_thresh_image</span><span class="p">)</span>
+
+<span class="c"># For some reason it gets rotated and flipped, reverse</span>
+<span class="n">thresh_image</span> <span class="o">=</span> <span class="n">thresh_image</span><span class="o">.</span><span class="n">rotate90</span><span class="p">()</span><span class="o">.</span><span class="n">flipVertical</span><span class="p">()</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="identify-largest-rectangle">
+<h3>Identify Largest Rectangle</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="c"># Find &quot;blobs&quot; which are interesting items in the image</span>
+<span class="n">blobs</span> <span class="o">=</span> <span class="n">thresh_image</span><span class="o">.</span><span class="n">findBlobs</span><span class="p">()</span>
+
+<span class="c"># Assume the largest rectangular blob is our puzzle</span>
+<span class="n">puzzle_blob</span> <span class="o">=</span> <span class="bp">None</span>
+<span class="n">puzzle_area</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">for</span> <span class="n">blob</span> <span class="ow">in</span> <span class="n">blobs</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">blob</span><span class="o">.</span><span class="n">isRectangle</span><span class="p">()</span> <span class="ow">and</span> <span class="n">blob</span><span class="o">.</span><span class="n">area</span><span class="p">()</span> <span class="o">&gt;</span> <span class="n">puzzle_area</span><span class="p">:</span>
+        <span class="n">puzzle_blob</span> <span class="o">=</span> <span class="n">blob</span>
+        <span class="n">puzzle_area</span> <span class="o">=</span> <span class="n">blob</span><span class="o">.</span><span class="n">area</span><span class="p">()</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="identify-individual-squares">
+<h3>Identify Individual Squares</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="c"># Slice into 81 squares (simple approach)</span>
+<span class="n">blocks</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">9</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">9</span><span class="p">):</span>
+        <span class="n">block</span> <span class="o">=</span> <span class="n">puzzle_image</span><span class="o">.</span><span class="n">crop</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">block_width</span><span class="p">,</span> <span class="n">y</span><span class="o">*</span><span class="n">block_height</span><span class="p">,</span> <span class="n">block_width</span><span class="p">,</span> <span class="n">block_height</span><span class="p">)</span>
+        <span class="n">blocks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">block</span><span class="p">)</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="recognize-digits">
+<h3>Recognize Digits</h3>
+<p>We will use the code at <a class="reference external" href="http://bit.ly/cvarp-pytn-numrec">http://bit.ly/cvarp-pytn-numrec</a> which:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Take a solved Sudoku puzzle picture, hand recognize the digits</li>
+<li>Take the recognized digits, resize them to the same size, and save as a numpy array</li>
+<li>Take the saved, recognized digits and load into OpenCV K-Nearest Neighbors
+<em>(basically learning by example)</em></li>
+<li>Find only things that could be numbers in each of the 81 blocks of the puzzle</li>
+<li>Assuming its a number, recognize it</li>
+</ol>
+</div></blockquote>
+
+</article>
+<article class="slide level-3" id="recognize-digits-code">
+<h3>Recognize Digits (Code)</h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="c"># Read the stored digits</span>
+<span class="n">samples</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s">&#39;generalsamples.data&#39;</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+<span class="n">responses</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s">&#39;generalresponses.data&#39;</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+<span class="n">responses</span> <span class="o">=</span> <span class="n">responses</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="n">responses</span><span class="o">.</span><span class="n">size</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">KNearest</span><span class="p">()</span>
+<span class="n">model</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">samples</span><span class="p">,</span><span class="n">responses</span><span class="p">)</span>
+
+<span class="c"># For each number blob, size to standard size</span>
+<span class="n">small</span> <span class="o">=</span> <span class="n">blobblock</span><span class="o">.</span><span class="n">blobImage</span><span class="p">()</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">getGrayNumpyCv2</span><span class="p">()</span>
+<span class="n">small</span> <span class="o">=</span> <span class="n">blobsmall</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">))</span>
+<span class="n">small</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">(</span><span class="n">blobsmall</span><span class="p">)</span>
+
+<span class="c"># And get the nearest neighbor</span>
+<span class="n">al</span><span class="p">,</span> <span class="n">results</span><span class="p">,</span> <span class="n">neigh_resp</span><span class="p">,</span> <span class="n">dists</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">find_nearest</span><span class="p">(</span><span class="n">blobsmall</span><span class="p">,</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">t</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">int</span><span class="p">((</span><span class="n">results</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])))</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="construct-a-representation-and-solve">
+<h3>Construct a Representation and Solve</h3>
+<p>Use a simple string, with '.' an empty block and the number for
+a recognized number. We can pass this in directly to Norvig's
+Sudoku's solver.</p>
+<p>For example:</p>
+<p>.1.2.3....4...5...3.2.6..7.2..1..3...35...68...9..7..2.5..7.2.4.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">solved_puzzle</span> <span class="o">=</span> <span class="n">solve</span><span class="p">(</span><span class="n">puzzle_repr</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">display</span><span class="p">(</span><span class="n">solved_puzzle</span><span class="p">)</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="place-solved-digits-into-image">
+<h3>Place Solved Digits Into Image</h3>
+<p>All we do is take the images of the recognized numbers and use
+them to place into the original image in the unsolved blocks.</p>
+<p>This assumes the unsolved puzzle contains all the digits!</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">numpic_width</span><span class="p">,</span> <span class="n">numpic_height</span> <span class="o">=</span> <span class="n">numpic</span><span class="o">.</span><span class="n">size</span>
+
+<span class="n">xpaste</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">puzzle_offset_x</span> \
+                <span class="o">+</span> <span class="p">(</span><span class="n">block_width</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mf">0.5</span><span class="p">))</span> \
+                <span class="o">-</span> <span class="p">(</span><span class="n">numpic_width</span><span class="o">/</span><span class="mf">2.0</span><span class="p">)))</span>
+<span class="n">ypaste</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">puzzle_offset_y</span> \
+                <span class="o">+</span> <span class="p">(</span><span class="n">block_height</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mf">0.5</span><span class="p">))</span> \
+                <span class="o">-</span> <span class="p">(</span><span class="n">numpic_height</span><span class="o">/</span><span class="mf">2.0</span><span class="p">)))</span>
+
+<span class="n">solved_puzzle_image</span><span class="o">.</span><span class="n">paste</span><span class="p">(</span><span class="n">numpic</span><span class="p">,</span> <span class="p">(</span><span class="n">xpaste</span><span class="p">,</span> <span class="n">ypaste</span><span class="p">))</span>
+</pre></div>
+</div>
+
+</article>
+<article class="slide level-3" id="unsolved-image">
+<h3>Unsolved Image</h3>
+<div class="figure">
+<img alt="_images/unsolved_puzzle.jpg" src="_images/unsolved_puzzle.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="solved-image">
+<h3>Solved Image</h3>
+<div class="figure">
+<img alt="_images/solved_puzzle.jpg" src="_images/solved_puzzle.jpg" />
+</div>
+
+</article>
+<article class="slide level-3" id="areas-of-improvement">
+<h3>Areas of Improvement</h3>
+<p>This is just a start. Like everything, there is
+room for improvement.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>It is sensitive to identification of digits</li>
+<li>It doesn't take deformation into account</li>
+<li>It could do better smoothing to blend in the numbers</li>
+</ol>
+</div></blockquote>
+
+</article>
+<article class="slide level-3" id="code-and-contact">
+<h3>Code and Contact</h3>
+<p><strong>Eric Floehr</strong></p>
+<p><a class="reference external" href="mailto:eric&#37;&#52;&#48;intellovations&#46;com">eric<span>&#64;</span>intellovations<span>&#46;</span>com</a></p>
+<p><a class="reference external" href="http://www.intellovations.com">http://www.intellovations.com</a></p>
+<p>Code: <a class="reference external" href="http://bit.ly/cvarp-pytn-code">http://bit.ly/cvarp-pytn-code</a></p>
+<p>Presentation: in _build/slides directory</p>
+
+</article>
+
+
+</section>
+
+<section id="slide_notes">
+
+</section>
+
+  </body>
+</html>
